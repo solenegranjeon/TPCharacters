@@ -62,3 +62,5 @@ pour tout, 2 instances de Yoshi et 2 de Mario, toutes les 4 allouées sur le tas
 //On constate que la liste n'a pas les itérateurs, il faut en créér un...
 
 ### e. Essayez d'utiliser un range-based for avec le mot-clé auto
+
+7) Classes canoniques?

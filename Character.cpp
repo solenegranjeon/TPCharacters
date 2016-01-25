@@ -19,6 +19,12 @@ Character::Character() {
   nb_instances+=1;
 }
 
+Character::Character(const Character& c2){
+	this->speed_ = new float(c2.speed());
+	max_speed_ = 10.;
+  nb_instances+=1;
+}
+
 // ===========================================================================
 //                                 Destructor
 // ===========================================================================

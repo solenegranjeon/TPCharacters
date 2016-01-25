@@ -27,9 +27,9 @@ using namespace std;
 int main(int argc, char* argv[]) {
 	
   Yoshi*      character1 = new Yoshi(GREEN);
-  Yoshi*      character2 = new Yoshi();
+  Yoshi*      character2 = new Yoshi(*character1);
   Mario*			character3 = new Mario();
-  Mario*			character4 = new Mario();
+  Mario*			character4 = new Mario(*character3);
   
   //Il est possible de faire un vecteur ou une liste
   //Avec un vecteur on accède aux élèments avec []

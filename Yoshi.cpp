@@ -16,6 +16,11 @@
 Yoshi::Yoshi() {
 	color_ = RED;
 }
+
+Yoshi::Yoshi(const Yoshi& y2) {
+	color_ = y2.color_;
+}
+
 Yoshi::Yoshi(Color co) {
 	color_=co;
 }
