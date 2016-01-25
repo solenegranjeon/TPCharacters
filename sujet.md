@@ -59,5 +59,6 @@ pour tout, 2 instances de Yoshi et 2 de Mario, toutes les 4 allouées sur le tas
 ### c. Mettez tous vos personnages dans un std::vector<Character*>, utilisez les itérateurs pour parcourir la liste
 
 ### d. Décidez d'opter pour une std::list<Character*> au lieu du vector, que constatez-vous ?
+//On constate que la liste n'a pas les itérateurs, il faut en créér un...
 
 ### e. Essayez d'utiliser un range-based for avec le mot-clé auto
